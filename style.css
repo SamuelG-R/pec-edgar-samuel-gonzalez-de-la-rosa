@@ -1,0 +1,87 @@
+html, body {
+    min-height: 100%;
+    background: linear-gradient(135deg, #050b2e, #101d5c, #182a70, #070912) !important;
+    color: white;
+    padding-top: 50px;
+}
+
+nav {
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.nav-link {
+    color: white !important;
+    margin-left: 15px;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #67e8f9 !important;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    background: linear-gradient(to right, #67e8f9, #a78bfa);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.subtitulo {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.contenido {
+    max-width: 900px;
+    margin: auto;
+    line-height: 1.7;
+    font-size: 18px;
+}
+
+.tarjeta-info {
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 25px;
+    height: 100%;
+}
+
+.tarjeta-info:hover {
+    background: rgba(255, 255, 255, 0.12);
+}
+
+.icono {
+    font-size: 45px;
+    color: #67e8f9;
+}
+
+footer {
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(10px);
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.tarjeta {
+    background: rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    color: white;
+
+
+    border: 1px solid rgba(255, 255, 255, 0.20) !important;
+    border-radius: 20px;
+
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.tarjeta:hover {
+    transform: scale(1.04);
+    background: rgba(255, 255, 255, 0.15);
+}
